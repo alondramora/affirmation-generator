@@ -128,3 +128,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* end of css reset */
+
+header {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.affirmation-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
