@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import { affirmations } from "./database/db";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <h2>Click the button for a new affirmation</h2>
         <Button />
         <p className="affirmation">Affirmation will go here</p>
+        <p>{affirmations}</p>
       </section>
     </>
   );

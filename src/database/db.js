@@ -1,4 +1,1 @@
-const affirmations = {
-  1: "Affirmation one",
-  2: "Affirmation two",
-};
+export const affirmations = ["Affirmation one", "Affirmation two"];
