@@ -134,6 +134,8 @@ main {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 60%;
 }
 
@@ -152,5 +154,27 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+}
+
+.btn {
+  background-color: #080b35;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 1em 2em;
+  text-align: center;
+  display: inline-block;
+  margin: 0.25em;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 0;
+  line-height: 1.25em;
+  margin: 1.5rem 0 1.5rem 0;
+}
+.btn:hover {
+  background-color: purple;
+  transition: 0.1s;
 }
