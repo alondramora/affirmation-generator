@@ -1,8 +1,8 @@
-export default function Button() {
-  function handleClick() {
-    alert("You clicked me!");
-  }
+export function handleClick() {
+  alert("Is this working???");
+}
 
+export default function Button() {
   return (
     <>
       <button className="btn" onClick={handleClick}>
